@@ -7,7 +7,7 @@
 class Matrix {
 private:
     int N;        // dimension (N x N)
-    int* data;    // 1D array storing elements row-major
+    int* data;    // 1D array storing elements
     int idx(int r, int c) const { return r * N + c; } //helper which gives the array index number given position
 
 public:
